@@ -1,32 +1,32 @@
 #!/usr/bin/env python
 
-esInputs = "/home/matthieu/.emulationstation/es_input.cfg"
-esSettings = '/home/matthieu/.emulationstation/es_settings.cfg'
-recalboxConf = "/home/matthieu/recalbox/recalbox.conf"
+esInputs = "/home/pi/.emulationstation/es_input.cfg"
+esSettings = '/home/pi/.emulationstation/es_settings.cfg'
+recalboxConf = "/home/pi/recalbox/recalbox.conf"
 
-retroarchRoot = "/home/matthieu/recalbox/configs/retroarch"
+retroarchRoot = "/home/pi/recalbox/configs/retroarch"
 retroarchCustom = retroarchRoot + '/retroarchcustom.cfg'
 retroarchCustomOrigin = retroarchRoot + "/retroarchcustom.cfg.origin"
 retroarchCoreCustom = retroarchRoot + "/cores/retroarch-core-options.cfg"
 
 retroarchBin = "retroarch"
 retroarchCores = "/usr/lib/libretro/"
-shadersRoot = "/home/matthieu/recalbox/share_init/shaders/presets/"
+shadersRoot = "/home/pi/recalbox/share_init/shaders/presets/"
 shadersExt = '.gplsp'
 libretroExt = '_libretro.so'
 
-fbaRoot = '/home/matthieu/recalbox/configs/fba/'
+fbaRoot = '/home/pi/recalbox/configs/fba/'
 fbaCustom = fbaRoot + 'fba2x.cfg'
 fbaCustomOrigin = fbaRoot + 'fba2x.cfg.origin'
 fba2xBin = '/usr/bin/fba2x'
 
-mupenCustom = "/home/matthieu/recalbox/configs/mupen64/mupen64plus.cfg"
-shaderPresetRoot = "/home/matthieu/recalbox/share/system/shadersets/"
+mupenCustom = "/home/pi/recalbox/configs/mupen64/mupen64plus.cfg"
+shaderPresetRoot = "/home/pi/recalbox/share/system/shadersets/"
 
-kodiJoystick = '/home/matthieu/.kodi/userdata/keymaps/recalbox.xml'
-kodiMappingUser  = '/home/matthieu/recalbox/configs/kodi/input.xml'
+kodiJoystick = '/home/pi/.kodi/userdata/keymaps/recalbox.xml'
+kodiMappingUser  = '/home/pi/recalbox/configs/kodi/input.xml'
 
 kodiBin  = '/usr/lib/kodi/kodi.bin'
 
-logdir = '/home/matthieu/recalbox/logs/'
+logdir = '/home/pi/recalbox/logs/'
 
